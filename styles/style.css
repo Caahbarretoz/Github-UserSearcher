@@ -1,0 +1,170 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #0D1117;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    height: 70px;
+    background-color: #010409;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #474545;
+    & nav {
+        width: auto;
+        display: flex;
+        margin-top: auto;
+        padding-bottom: 10px;
+        margin-left: 0px;
+        & span {
+            color: #fff;
+            margin-right: 30px;
+        }
+    }
+    & form {
+        margin-left: auto;
+        margin-right: 40px;
+        position: relative;
+        & input {
+            height: 39px;
+            width: 223px;
+            border: none;
+            border-radius: 10px;
+            background: #D9D9D910;
+            color: #fff;
+        }
+    }
+}
+
+#git-icon {
+    font-size: 19px;
+}
+
+#search-button {
+    color: #6b6a6a;
+    position: relative;
+    right: 35px;
+    cursor: pointer;
+}
+
+i {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    left: 125px;
+    font-size: 18px;
+    & i {
+        padding-right: 7px;
+    }
+}
+
+input::placeholder {
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2.1fr;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+}
+
+aside img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.aside-container {
+    width: 100%;
+    padding-left: 250px;
+}
+
+.names-bio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    & h1 {
+        font-size: 30px;
+    }
+    & h2 {
+        font-size: 20px;
+        color: #999;
+        margin-top: 3px;
+    }
+    & p {
+        margin-top: 25px;
+        font-size: 16px;
+        width: 70%;
+    }
+}
+
+.follow {
+    display: flex;
+    margin-top: 25px;
+    width: 170px;
+    white-space: nowrap;
+    & span {
+        margin-right: 5px;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #999;
+    justify-content: space-between;
+    white-space: nowrap;
+    line-height: 20px;
+    width: 150px;
+}
+
+.divs-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.divs-container section {
+    display: flex;
+}
+
+.divs-container section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 20px 6px;
+    width: 70%;
+    height: 250px;
+    background: #00000033;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+}
